@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+.section-padding {
+    padding: 5% 0;
+}
+
 .container {
     width: 90%;
     margin: auto;
@@ -11,6 +15,8 @@ body {
     .flexiable-cantainer {
         display: flex;
     }
+    
+    
     .half-width {
         width: 50%;
         padding: 0 5%;
@@ -22,16 +28,49 @@ body {
     padding: 5% 0;
     background-repeat: no-repeat;
 }
+.left-side h1 {
+    color: brown;
+}
+
     .right-side img{
   width: 100%;   
  }
  /* - deeam section css --> */
  .dreram-big  {
     background-image: url(images/dream-bg.png);
-    padding: 5% 0;
+   
     background-repeat: no-repeat;
     background-position: right;
-} 
+    } 
+    /* <!-- experiance  css --> */
+.ex-item {
+   
+    margin: 0 5%;
+    padding: 2% ;  
+    box-shadow: 12px 12px 15px lightgray;
+   
+   
+}
+#item-1 {
+    border-left: 5px solid;
+    border-image: linear-gradient(red,
+     orange);
+     border-image-slice: 2;
+     
+ }
+ #item-2 {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,
+     red);
+     border-image-slice: 2;}
+
+      /* footer-section css */
+      .footer-section P{
+        text-align: center;
+      }
+
+     
+
 
      
  
