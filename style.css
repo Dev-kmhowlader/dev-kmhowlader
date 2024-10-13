@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+
 .section-padding {
     padding: 5% 0;
 }
@@ -30,6 +31,16 @@ body {
 }
 .left-side h1 {
     color: brown;
+    font-size: 40px;
+}
+.left-side a {
+    background-image: linear-gradient(brown,red);
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
     .right-side img{
@@ -44,30 +55,45 @@ body {
     } 
     /* <!-- experiance  css --> */
 .ex-item {
-   
-    margin: 0 5%;
-    padding: 2% ;  
+    margin: 3% 3%;
+    padding: 1%;  
     box-shadow: 12px 12px 15px lightgray;
    
    
 }
+
 #item-1 {
     border-left: 5px solid;
     border-image: linear-gradient(red,
      orange);
      border-image-slice: 2;
      
+     
  }
  #item-2 {
     border-left: 5px solid;
     border-image: linear-gradient(blue,
      red);
-     border-image-slice: 2;}
+     border-image-slice: 2;
+    }
 
       /* footer-section css */
       .footer-section P{
         text-align: center;
       }
+      .experience {
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+         background-position: left;
+         
+         }
+         .experience h1 {
+            font-size: 50px;
+            color: blueviolet;
+         }
+
+      
+       
 
      
 
